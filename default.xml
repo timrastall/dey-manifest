@@ -2,10 +2,10 @@
 <manifest>
   <default sync-j="4" revision="daisy"/>
 
-  <remote name="digi"  fetch="git://github.com/digidotcom"/>
-  <remote name="fsl"   fetch="git://github.com/Freescale"/>
-  <remote name="oe"    fetch="git://git.openembedded.org"/>
-  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="digi"  fetch="http://github.com/digidotcom"/>
+  <remote name="fsl"   fetch="http://github.com/Freescale"/>
+  <remote name="oe"    fetch="http://git.openembedded.org"/>
+  <remote name="yocto" fetch="http://git.yoctoproject.org"/>
 
   <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="bf25c4b06d8c54bc03ec621cdd9f498396c4a3b4">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
